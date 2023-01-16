@@ -1,3 +1,5 @@
 # Dextreous-Hand-Manipulation
-This is an implementatin of "Learning Dexterous In-Hand Manipulation" research paper written by OpenAI team for the course CS F317 (Reinforcement Learning) offered at BITS Pilani Hyderabad Campus under Dr Paresh Saxena.   
-[Project Report](https://docs.google.com/document/d/1MoxWAMwDHNe7fXGVYF3q-qV8jAaHLn9lXt8IKl4duKo/edit)
+
+This repository contains an implementation of a robotic hand control policy using Proximal Policy Optimization (PPO) for in-hand manipulation tasks. The simulation is done using the MuJoCo physics engine and the model of the hand is based on the one used in the OpenAI Gym robotics environments. The goal is to reorient the object to a desired target configuration in hand with rewards given for achieving the goal and penalties for dropping the object. 
+
+The state of the system is a 61-dimensional observation of the robot joints, object position, and desired goal.
